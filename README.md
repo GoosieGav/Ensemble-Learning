@@ -148,3 +148,51 @@ Pektas, Abdulbaki, and Raheel Nawaz. "Detecting Malware Using Machine Learning a
 Singh, R., et al. "Malware-Memory-Analysis." *GitHub Repository*, 2022. https://github.com/rsingh0616/Malware-Memory-Analysis
 
 Statista. "Number of
+
+The stacking ensemble achieved an overall accuracy of 87.97%, exceeding the performance of the highest-performing individual model, XGBoost (87.76% accuracy). The ensemble also demonstrated superior F1-scores, effectively balancing precision and recall across classification categories. Notably, recall values were particularly strong for malware classifications, indicating the model's proficiency in identifying malicious activity while maintaining minimal false-negative rates.
+
+### Feature Diversity Robustness
+
+The significant variation in feature importance across the base models indicates that each model relies on different aspects of the data for making predictions. This diversity enhances the robustness of the ensemble model, reducing the risk of overfitting to any single feature or pattern and improving resilience against adversarial attacks and novel malware variants.
+
+## Conclusion
+
+This research investigated the application of ensemble deep learning methodologies for memory-based malware classification, demonstrating that our stacking ensemble approach significantly enhances detection capabilities. By synthesizing feature representations from neural networks, gradient-boosted frameworks, and tree-based models, our architecture leverages the complementary strengths of diverse algorithmic approaches, resulting in superior accuracy and enhanced resilience. These findings confirm that ensemble learning represents a viable strategy for strengthening cybersecurity frameworks against increasingly sophisticated malware threats.
+
+While our model effectively classifies malware using memory-based behavioral features, operational implementation would necessitate additional validation, including integration within existing cybersecurity infrastructure. A practical deployment could involve incorporating the model into endpoint protection platforms where it continuously analyzes memory artifacts for suspicious activity patterns. By implementing real-time inference capabilities and automated threat response mechanisms, the system could substantially enhance contemporary malware detection frameworks.
+
+## Future Research
+
+Though our stacking ensemble demonstrated robust performance, several enhancements merit exploration to further optimize malware detection capabilities:
+
+* Implementing Bayesian optimization techniques for neural network hyperparameter tuning.
+* Evaluating alternative ensemble learning methodologies such as bagging and boosting.
+* Conducting binary classification benchmarking (malware vs. benign).
+* Exploring multimodal learning by incorporating other data sources like network traffic and static file attributes.
+* Addressing model interpretability concerns for practical deployment in security operations.
+
+## References
+
+Alazab, Ammar, et al. "Android Malware Detection Using Ensemble Learning." *IEEE Access*, vol. 9, 2021, pp. 45497-45511. https://ieeexplore.ieee.org/document/10169578
+
+Alzaylaee, Hisham, et al. "File-Based Malware Detection Using Ensemble Method." *IET Conference Publications*, 2021. https://ieeexplore.ieee.org/document/9770633
+
+Apruzzese, Giovanni, et al. "On the Effectiveness of Machine and Deep Learning for Cyber Security." *NATO Cooperative Cyber Defence Centre of Excellence (CCDCOE)*, 2018. https://ccdcoe.org/uploads/2018/10/Art-19-On-the-Effectiveness-of-Machine-and-Deep-Learning-for-Cyber-Security.pdf
+
+Dener, Murat, and Ercan Ok. "Malware Detection Using Memory Analysis Data in Big Data Platforms." *International Journal of Computer Science and Network Security*, vol. 21, no. 5, 2021, pp. 1-8. https://www.semanticscholar.org/paper/Malware-Detection-Using-Memory-Analysis-Data-in-Big-Dener-Ok/b9a0d61b294e4ff18c01287ec1ee8b9fd6c3f80b
+
+García, Salvador, et al. "Review of Data Preprocessing Techniques in Data Mining." *ResearchGate*, 2017. https://www.researchgate.net/publication/320161439_Review_of_Data_Preprocessing_Techniques_in_Data_Mining
+
+Hasan, S. M. Rakib, and Aakar Dhakal. "Obfuscated Malware Detection: Investigating Real-World Scenarios through Memory Analysis." *arXiv preprint arXiv:2404.02372*, 2024. https://arxiv.org/abs/2404.02372
+
+Li, Zhenglin, et al. "Comprehensive Evaluation of Mal-API-2019 Dataset by Machine Learning in Malware Detection." *arXiv preprint arXiv:2403.02232*, 2024. https://arxiv.org/abs/2403.02232
+
+Lashkari, Arash Habibi, et al. *Characterization of Encrypted and VPN Traffic Using Time-Related Features*. Proceedings of the 2nd International Conference on Information Systems Security and Privacy (ICISSP 2016), 2021, https://pdfs.semanticscholar.org/b2e2/0dc7a34753311472a5f2314fbf866d7eddd0.pdf
+
+Moujoud, Yassine, et al. "Enhancing Malware Detection through Ensemble Learning Techniques." *Research Square*, 2023. https://assets-eu.researchsquare.com/files/rs-4772367/v1_covered_5bc38cd7-24d8-498e-ac2e-e693774724e5.pdf
+
+Pektas, Abdulbaki, and Raheel Nawaz. "Detecting Malware Using Machine Learning and Deep Learning Methods: A Systematic Literature Review." *Cybersecurity*, vol. 7, no. 5, 2024. https://cybersecurity.springeropen.com/articles/10.1186/s42400-024-00238-4
+
+Singh, R., et al. "Malware-Memory-Analysis." *GitHub Repository*, 2022. https://github.com/rsingh0616/Malware-Memory-Analysis
+
+Statista. "Number of
