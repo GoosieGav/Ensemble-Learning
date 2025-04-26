@@ -63,3 +63,4 @@ As shown in the table, the **stacking ensemble achieved the highest accuracy (0.
 * Optuna
 
 This repository contains the code and analysis conducted for this project, showcasing a practical application of ensemble learning for robust malware classification using memory-based features.
+This project and its research paper is currently in the procces of being published to a scientific journal.
